@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>www.eurolanddairy.com</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+</script>
+<style type="text/css">
+	 .jumbotron{
+		padding: 10px;
+	 	   text-align: center;
+	 	   background-color: #4BE38A;
+	 	   color: white;
+	 }
+	 #tagline{
+	 	    color:#000123;
+	 }
+
+	 ul{
+	 	 list-style-type: none;
+	 	 margin: 0px;
+	 	 padding: 0px;
+	 	 background-color:gold;
+	 	 width: 100%;
+	 	 overflow: hidden;
+	 	 margin-top: -30px;
+	 }
+
+	 li{
+	 	 float: left;
+
+	 }
+
+	 li a{
+	 	   display: block;
+	 	   color:#000123;
+	 	   text-align: center;
+	 	   padding: 14px 16px;
+	 	   text-decoration: none;
+	 }
+	 li a:hover{
+	 	   background-color: #000123;
+	 	   coloe:white;
+	 	  text-decoration: none;
+	 }
+	 a:hover{
+	 	 color:white;
+	 }
+
+	 .cardcontainer{
+	 	     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+	 	     transition: 0.3s;
+			
+
+	 }
+   
+	 .cardcontainer:hover{
+	 	     box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
+	 	    
+	 }
+
+	 .carddata{
+	 	        padding: 5px 20px;
+	 	        background-color: deeppink;
+	 	        color:white;
+	 }
+
+	 .amtclass{
+	 	     font-size: 23px;
+	 	     color:#000123;}
+	table{
+		margin-top:15px;
+	}
+
+	.well{
+		background-color: rgb(107, 103, 105);
+		color: white;
+	}
+
+	.tableheader,.tableborder{
+		border: solid 1px ;
+	}
+	.tabledata{
+		padding-left: 10px;
+		font-size: 16px;
+		border-left: solid 1px;
+	}
+
+	.contactus{
+            padding: 10px 40px;
+            background-color: gold;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="text"]
+        {
+            padding: 7px;
+            width: 50%;
+        }
+
+        .btnclass{
+            padding: 7px 30px;
+            background-color: purple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+       .contactus:hover{
+		background-color: #000123;
+		color: white;
+	   }
+
+        
+    </style>
+    <script src="JQuery.js"></script>
+
+    <script>
+        $(document).ready(function()
+        {
+            $(".contact_id").hide()
+            $(".contactus").click(function()
+            {
+                $(".contact_id").slideToggle(500)
+            });
+        });
+    </script>
+</head>
+<body>
+
+	   <div class="jumbotron">
+	   	     <h2>Euroland Dairy</h2>
+	   	     <p id="tagline">Ireland Dairy Since 1950</p>
+	   </div>
+
+	    <ul>
+	    	<li><a href="#home">Home</a></li>
+	    	<li><a href="#aboutus">About Us</a></li>
+	    	<li><a href="#product">Products</a></li>
+	    	<li><a href="#services">Services</a></li>
+	    	<li><a href="#career">Career</a></li>
+	    	<li><a href="#testimonials">Testimonials</a></li>
+	    	<li><a href="#contactus">Contact Us</a></li>
+	    </ul>
+
+	   <div class="container-fluid" id="home">
+	   	     <!-- <video src="video/dairy.mp4" width="100%" height="50%" autoplay controls></video> -->
+
+	   	     <video  width="100%" height="50%" controls autoplay loop>
+	   	     	  <source src="video/dairy.mp4" type="video/mp4" >
+	   	     </video>
+	   </div>
+       
+
+       <div class="container-fluid" id="aboutus">
+		<br>
+		<center><h1>About Us</h1></div></center>
+		<br><br>
+		
+			<img src="pics/Adams.jpg" style="width: 100%; height:450px;">
+			<h4><p style="color: green;"><br><br>Euroland Dairy was founded by the great visionary, Late Matrin alias Adams Euroland (B. Euroland). A 
+					journey that began in 1939, in the small town of Lauterbrunnenset the stage for a revolution in the 
+					country's dairy industry.<br><br>
+					Adams, as he was affectionately called, set out on an uphill task – to empower local farmers through 
+					an enterprise movement. He began with a small milk unit in his own backyard, with the help of fellow 
+					farmers. Adams, along with the group of farmers, procured milk from the adjoining areas of his 
+					hometown, which was pasteurized mechanically and dispatched for sale in Pune. At a time when milk 
+					was not considered an item of sale, he worked towards establishing its presence in the market as a 
+					commodity.<br><br>
+					The trail to a milk revolution was set ablaze by Adams, much before the dairy cooperative movement 
+					took roots in the country. He possessed strong business acumen and vision that was well ahead of his 
+					time. He believed that a true revolution can only happen if all the farmers join forces to support a 
+					common cause, of commercializing the dairy activity into a full-fledged industry</h4></p>
+       </div>
+
+       
+       <div class="container-fluid  text-center" id="product">
+       	<br>
+       	           <h3>Find Your Best Product</h3>
+       <br>	
+       <br>	           
+                  
+                   <div class="row">
+                   	    <div class="col-sm-3">
+                   	    	   
+                   	    	     <!--- Copy Code from here -->
+                   	    	     <div class="cardcontainer text-center">
+                   	    	     	  <img src="pics/cow.png" style="width: 100%;">
+                                   
+                                  <div class="carddata">
+                                  	  <h4>Cow Milk</h4>
+                                  	  <p class="amtclass">&#8364 20</p>
+                                  </div> 
+                   	    	     </div> <!--end of cardcontainer-->
+
+                   	    	     <!-- till here-->
+
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+                   	    	     
+
+                   	    	     <div class="cardcontainer text-center">
+                   	    	     	  <img src="pics/gcow.jpg" style="width: 100%;">
+                                   
+                                  <div class="carddata">
+                                  	  <h4>Gir Cow Milk</h4>
+                                  	  <p class="amtclass">&#8364 30</p>
+                                  </div> 
+                   	    	     </div> <!--end of cardcontainer-->
+
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+							<div class="cardcontainer text-center">
+								<img src="pics/p66.jpg" style="width: 100%;" >
+						 
+						<div class="carddata">
+							  <h4>Natural Milk</h4>
+							  <p class="amtclass">&#8364 50</p>
+						</div> 
+						  </div> <!--end of cardcontainer-->
+                   	    	    
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+							<div class="cardcontainer text-center">
+								<img src="pics/paneer.jpeg" style="width: 100%;" >
+						 
+						<div class="carddata">
+							  <h4>Paneer</h4>
+							  <p class="amtclass">&#8364 50</p>
+						</div> 
+						  </div> <!--end of cardcontainer-->
+                   	    	</div>    
+                   </div>  <!-- end of row-->
+                  
+                 <br>
+                   <div class="row">
+                   	    <div class="col-sm-3">
+                   	    	   
+                   	    	     <!--- Copy Code from here -->
+                   	    	     <div class="cardcontainer text-center">
+                   	    	     	  <img src="pics/cow.png" style="width: 100%;">
+                                   
+                                  <div class="carddata">
+                                  	  <h4>Cow Milk</h4>
+                                  	  <p class="amtclass">&#8364 20</p>
+                                  </div> 
+                   	    	     </div> <!--end of cardcontainer-->
+
+                   	    	     <!-- till here-->
+
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+                   	    	     <!--- Copy Code from here -->
+                   	    	     <div class="cardcontainer text-center">
+									<img src="pics/m1.png" style="width: 100%;">
+							 
+							<div class="carddata">
+								  <h4>Full Cream Milk</h4>
+								  <p class="amtclass">&#8364 20</p>
+							</div> 
+							  </div> <!--end of cardcontainer-->
+
+							  <!-- till here-->
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+							 <!--- Copy Code from here -->
+							 <div class="cardcontainer text-center">
+								<img src="pics/cheese1.png" style="width: 100%;">
+						 
+						<div class="carddata">
+							  <h4>Cheese</h4>
+							  <p class="amtclass">&#8364 30</p>
+						</div> 
+						  </div> <!--end of cardcontainer-->
+
+						  <!-- till here-->
+                   	    	    
+                   	    </div>
+
+                   	    <div class="col-sm-3">
+                   	    	     <!--- Copy Code from here -->
+							 <div class="cardcontainer text-center">
+								<img src="pics/yogurt.jpg" style="width: 100%;">
+						 
+						<div class="carddata">
+							  <h4>Yogurt</h4>
+							  <p class="amtclass">&#8364 25</p>
+						</div> 
+						  </div> <!--end of cardcontainer-->
+
+						  <!-- till here-->
+                   	    	     
+                   	    </div>
+                   </div>  <!-- end of row-->
+
+       </div>  <!-- end of product-->
+
+
+       <div  class="container-fluid" id="services">
+		<br>
+		<center><h1>Services</h1></center>
+		
+		<br><br>
+
+		<div class="row">
+		<div class="col-sm-4">
+			<div class="cardcontainer text-center">
+			<video  width="100%" height="50%" controls autoplay loop>
+				<source src="video/video (1080p).mp4" type="video/mp4" >
+		  </video>
+		</div>
+		</div>
+
+		<div class="col-sm-4">
+			<div class="cardcontainer text-center">
+			<video  width="100%" height="50%" controls autoplay loop>
+				<source src="video/pexels-koolshooters-8530347 (2160p).mp4" type="video/mp4" >
+		  </video>
+		</div>
+       	          
+       </div>
+
+	   <div class="col-sm-4">
+		<div class="cardcontainer text-center">
+		<video  width="100%" height="50%" controls autoplay loop>
+			<source src="video/video (2160p).mp4" type="video/mp4" >
+	  </video>
+	</div>
+				 
+   </div>
+   </div>
+<br><br>
+<div class="row">
+   <div class="col-sm-4">
+	<div class="cardcontainer text-center">
+	<video  width="100%" height="50%" controls autoplay loop>
+		<source src="video/pexels-roman-odintsov-5319460 (2160p).mp4" type="video/mp4" >
+  </video>
+</div>
+			 
+</div>
+
+	<div class="col-sm-4">
+	 <div class="cardcontainer text-center">
+	 <video  width="100%" height="50%" controls autoplay loop>
+		 <source src="video/production_id_4716358 (1080p).mp4" type="video/mp4" >
+   </video>
+ </div>
+			  
+ </div>
+	   
+	<div class="col-sm-4">
+	 <div class="cardcontainer text-center">
+	 <video  width="100%" height="50%" controls autoplay loop>
+		 <source src="video/pexels-gabby-k-7141494 (Original).mp4" type="video/mp4" >
+   </video>
+ </div>
+			  
+ </div>
+ 
+ </div>
+ </div>
+
+
+      <div  class="container-fluid" id="career">
+		<br>
+       	          <center><h1>Career</h1>
+				  <h2>Come Join Us & Make Career in Dairy Farm</h2></center>
+				  <br><br>
+				  <img src="pics/career.jpg" style="width: 100%; height:450px;">
+
+				  <table class="tableborder" style="text-align:center;width: 100%; height: 300px;">
+					<tr>
+						<th class="tableheader" style="text-align: center; height: 50px; font-size: 20px;" border="1"><b>Area Sales Manager</b></th>
+						<th class="tableheader" style="text-align: center; font-size: 20px;">Dairy Manager</th>
+					</tr>
+					<tr style="text-align: left;">
+                 <td class="tabledata">Role: <span style="color: blue;"> Sales Manager (B2B)</span></td>
+				 <td class="tabledata">Role:  <span style="color: blue;">Area Sales Manager (B2B)</span></td>
+				</tr>
+                 <tr style="text-align: left;">
+					<td class="tabledata">Industry Type: <span style="color: blue;">Food Processing</span></td>
+					<td class="tabledata">Industry Type: <span style="color: blue;">Food Processing</span></td>
+				 </tr>
+				 <tr style="text-align: left;" >
+					<td class="tabledata">Department: <span style="color: blue;">Sales & Business Development</span></td>
+					<td class="tabledata">Department: <span style="color: blue;">Sales & Business Development</span></td>
+				 </tr>
+					<tr style="text-align: left;">
+						<td class="tabledata">Employment Type: Full Time, Permanent</td>
+						<td class="tabledata">Employment Type: Full Time, Permanent</td>
+					</tr>
+					<tr style="text-align: left;">
+						<td class="tabledata">Role Category: Enterprise & B2B Sales</td>
+						<td class="tabledata">Role Category: Enterprise & B2B Sales</td>
+					</tr>
+					<tr style="text-align: left;">
+						<td class="tabledata">Education :UG: Any Graduat</td>
+						<td class="tabledata">Education :UG: Post Graduat</td>
+						
+					</tr>
+					<tr style="text-align: left;">
+						<td></td>
+						<td class="tabledata"> Exp: 5 Year</td>
+					</tr>
+				  </table>
+				
+       </div>
+
+    <div  class="container-fluid id="testimonials>
+		<br>
+       	          <center><h1>Testimonials</h1></center>
+				  <br><br>
+		
+				  <div class="row">
+					<div class="col-sm-1"></div>
+					<div class="col-sm-10">
+						<div class="well text-left"><h4>“I can eat cheese again. Can’t get enough of it. Always had issues before. Bloating, 
+							upset stomach and diarrhea. Not any more. Thanks to Euroland Dairy!” </h4><h3>Donny</h3> <h5>from Wisconsin</h5></div>
+						</div>
+						
+						 
+       </div>
+
+	   <div class="row">
+		<div class="col-sm-1"></div>
+		<div class="col-sm-10">
+			<div class="well text-left"><h4>“Thank goodness for A2 dairy. For more than 20 years I had no milk, no cheese because of A1 intolerance. Thank goodness for finding this. I had my first toasted 
+				cheese sandwich–it was better than candy. I’m excited to try the other varieties.”</h4><h3>Kay</h3>
+					<h5>from Utah</h5></div>
+			</div>
+			
+			 
+</div>
+	
+<div class="row">
+	<div class="col-sm-1"></div>
+	<div class="col-sm-10">
+		<div class="well text-left" ><h4>“A2 milk has changed everything for me!!! I can now enjoy cheese and milk with no 
+			issues!I l make my own yogurt now with A2 milk as well. Thanks Euroland Dairy.”</h4><h3>Amy</h3><h5>from Georgia</h5></div>
+		</div>
+	
+		 
+</div>
+    
+     <div class="container-fluid"  id="contactus">
+		<br>
+		<center><h1> Contact Us</h1></center>
+		<br><br>
+       	          <img src="pics/ccc.jpeg" style="width: 100%; height: 450px;">
+
+				  <img src="pics/contact.png" style="width: 100%">
+				  <center><button type="button" class="contactus">Click Here To Contact Us</button><br><br></center>
+       	          <div class="row">
+					
+       	          	  <div class="col-sm-6">
+						<center>
+						
+						<div class="contact_id">
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.1972282403444!2d-80.13356132705209!3d26.320112334507005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d91d007362088b%3A0x13840d873ad145f0!2sEuroland!5e0!3m2!1sen!2sin!4v1706720200328!5m2!1sen!2sin" width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</center>
+						</div>
+					
+					
+       	          	  <div class="col-sm-6">
+						
+
+					<center>
+					<div class="contact_id">
+						<table  cellpadding="5" align="center" width="100%" style="height: 250px;">
+							<tr  style="text-align: center;">
+								<td> First Name</td>
+								<td><input type="text" name="fname"></td>
+							</tr>
+
+							<tr  style="text-align: center;">
+								<td> Last Name</td>
+								<td><input type="text" name="lname"></td>
+							</tr>
+
+							<tr  style="text-align: center;">
+								<td> Email</td>
+								<td><input type="text" name="email"></td>
+							</tr>
+
+							<tr  style="text-align: center;">
+								<td> Message</td>
+								<td><input type="text" name="msg"></td>
+							</tr>
+
+							<tr>
+            
+								<td colspan="2" align="center">
+									<input type="submit" value="Send Message" class="btnclass">
+						   
+									<input type="reset" value="Reset" class="btnclass">
+								</td>
+							</tr>
+							
+       	          	  </div>
+					</center>
+       	          </div>
+       </div>
+
+  
+</body>
+</html>
+
+
